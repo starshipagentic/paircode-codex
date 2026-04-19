@@ -1,0 +1,19 @@
+{
+  "name": "paircode",
+  "interface": {
+    "displayName": "paircode"
+  },
+  "plugins": [
+    {
+      "name": "paircode",
+      "source": {
+        "source": "local",
+        "path": "./plugins/paircode"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "paircode",
+  "version": "0.1.0",
+  "description": "paircode — adversarial journey framework for multi-LLM peer review. Registers /paircode as a slash command.",
+  "author": {
+    "name": "Travis Somerville",
+    "url": "https://github.com/starshipagentic"
+  },
+  "homepage": "https://github.com/starshipagentic/paircode",
+  "repository": "https://github.com/starshipagentic/paircode-codex",
+  "license": "MIT",
+  "keywords": [
+    "peer-review",
+    "llm",
+    "orchestration",
+    "agents"
+  ],
+  "interface": {
+    "displayName": "paircode",
+    "shortDescription": "Adversarial peer review across Claude, Codex, Gemini, and Ollama.",
+    "longDescription": "paircode orchestrates multi-LLM peer review — one primary LLM plus any number of peer LLMs running research, plan, and execute stages with structured cross-review. File-traces on disk. Install the paircode Python package separately via `pip install paircode` or `pipx install paircode`.",
+    "developerName": "Travis Somerville",
+    "category": "Productivity"
+  }
+}
