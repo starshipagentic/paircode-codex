@@ -10,8 +10,9 @@ Codex CLI marketplace plugin that registers `/paircode` as a slash command.
 # 1. Install the paircode Python CLI (once)
 pipx install paircode
 
-# 2. Register /paircode with Codex (this repo)
-codex marketplace add starshipagentic/paircode-codex
+# 2. Register the marketplace, then install /paircode
+codex plugin marketplace add starshipagentic/paircode-codex
+codex plugin add paircode@paircode
 ```
 
 Now, from inside any `codex` interactive session, type `/paircode` — the slash-command menu lists it.
