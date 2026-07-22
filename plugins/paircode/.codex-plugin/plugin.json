@@ -1,6 +1,6 @@
 {
   "name": "paircode",
-  "version": "0.14.1",
+  "version": "0.14.3",
   "description": "paircode — adversarial journey framework for multi-LLM peer review. Registers /paircode as a slash command.",
   "author": {
     "name": "Travis Somerville",
